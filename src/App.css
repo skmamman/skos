@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.display, .about{
+  margin: 0% 5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display{
+  margin-top: -160px;
+}
+
+.skill{
+  height: 100vh;
+}
+
+@media (max-width:950px){
+  .about{
+      flex-direction: column;
+  }
+
+  h2{
+      font-size: 16px;
+  }
+
+  .contentAb{
+    width: 90vw;
+  }
+
+  .contentCo{
+    width: 90vw;
+  }
+
+}

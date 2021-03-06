@@ -1,0 +1,41 @@
+@media (max-width: 550px) {
+    .pv4-ns {
+        padding: 10px;
+    }
+    .link{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 950px) {
+    .ph4-m {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 951px) {
+    .ph5-l {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.header header {
+    position: absolute;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.5);
+}
