@@ -1,5 +1,5 @@
 # skos
 Portfolio-React
 
-# Please click below to see the portfolio:-
+# Please click on the link below to see the portfolio:-
 https://skos.herokuapp.com/
