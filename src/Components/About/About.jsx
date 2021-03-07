@@ -7,10 +7,10 @@ const About = () => {
             <div className="contentAb w-60">
                 <h1 className="heading">About Me</h1>
                 <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
-                <h2 className="f5 f4-m f3-l lh-copy measure mt0">“If I had nine hours to chop down a tree, I’d spend the 1st six sharpening my axe"
+                <h2 className="f5 f4-m f3-l lh-copy measure mt0">“If I had eight hours to chop down a tree, I’d spend the first six of them sharpening my axe.”
                 <cite className="f6 ttu tracked fs-normal">―– Abraham Lincoln.</cite></h2>
                 </blockquote>
-                <h3 className="f5 f4-m f3-l lh-copy lh-copy-m">Learning is my passion. I am a bit crazy about IT stuff. It's interesting for me to utilize the time to learn something new every day. I love to grow my technical skills in the IT ﬁeld. Now my goal is to learn web development to become a full-stack web developer which is currently I am doing on my own. But It will be beneﬁcial for me to achieve my goal if I get a chance to work on different projects within a team to grow my skills as well as utilize my skills to help the team.</h3>
+                <h3 className="f5 f4-m f3-l lh-copy lh-copy-m tj">Learning is my passion. I am a bit crazy about IT stuff. It's interesting for me to utilize the time to learn something new every day. I love to grow my technical skills in the IT ﬁeld. Now my goal is to learn web development to become a full-stack web developer which is currently I am doing on my own. But It will be beneﬁcial for me to achieve my goal if I get a chance to work on different projects within a team to grow my skills as well as utilize my skills to help the team.</h3>
             </div>
             <div className="contentCo w-40">
                 <h1 className="heading">Contact Me</h1>
