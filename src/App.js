@@ -5,10 +5,13 @@ import Logo from './Components/Logo/Logo';
 import Particles from './Components/Particles/Particle';
 import Display from './Components/Display/Display';
 import About from './Components/About/About';
+import Education from './Components/Education/Education';
 import Skill from './Components/Skill/Skill';
+import Footer from './Components/Footer/Footer';
+
 import './App.css';
 
-function App() {
+const App = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, [])
@@ -20,7 +23,9 @@ function App() {
         <Logo />
         <Display id="display"/>
         <About id="about"/>
+        <Education id="education"/>
         <Skill id="skill"/>
+        <Footer id="footer" />
     </div>
   );
 }

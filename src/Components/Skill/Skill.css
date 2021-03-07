@@ -2,18 +2,17 @@
     width: 100%;
     height: 100vh;
     padding: 100px;
-    padding-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 150px;
     /* flex-direction: column; */
     /* text-align: center; */
 }
 
-.skill .contentBx {
-    max-width: 800px;
+.heading{
+    flex: 30%;
+    text-align: center;
 }
 
 .skill .imgBx {
@@ -25,6 +24,7 @@
 }
 
 .wrap {
+    flex: 70%;
     margin:50px;
     perspective: 800px;
     perspective-origin: 50% 50%;
@@ -78,13 +78,6 @@
 }
 
 @media (max-width: 950px) {
-    .skill {
-        padding: 50px;
-        padding-top: 300px;
-        justify-content: center;
-        flex-direction: column;
-    }
-
     .skill .imgBx {
         margin-top: 40px;
         max-width: 250px;

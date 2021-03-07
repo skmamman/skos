@@ -7,9 +7,9 @@ const Display = () => {
         <>
         <section className="display">
             <div className="content b fl-100">
-            <h1 className="f1 ">Welcome to My World!</h1>
+            <h1 className="f1">Welcome to My World!</h1>
             <br />
-            <h2 className="heading">I'm
+            <h2 className="heading f3">I'm
             <Typical
                     loop={Infinity}
                     steps={[

@@ -1,4 +1,8 @@
 @media (max-width: 550px) {
+    .lh-copy{
+        font-size: 14px;
+        line-height: 1.2;
+    }
     .pv4-ns {
         padding: 10px;
     }

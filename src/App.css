@@ -12,19 +12,29 @@
 
 .display{
   margin-top: -160px;
+  margin-bottom: 50px;
 }
 
-.skill{
+.skill .education{
   height: 100vh;
 }
 
 @media (max-width:950px){
   .about{
       flex-direction: column;
+      margin: 10% 5%;
+  }
+
+  h1{
+    font-size: 18px;
   }
 
   h2{
-      font-size: 16px;
+      font-size: 14px;
+  }
+
+  h3{
+    font-size: 12px;
   }
 
   .contentAb{
